@@ -22,7 +22,7 @@ namespace git_project
                 arr[i] = arr[i - 1] + arr[i - 2];
                 sum += arr[i];
             }
-            Console.WriteLine();
+            Console.WriteLine("sum: " + sum);
         }
         static void Main(string[] args)
         {
