@@ -27,7 +27,7 @@ namespace git_project
         static void Main(string[] args)
         {
             int[] arr = new int[5];
-
+            fib(arr);
             Console.ReadLine();
         }
     }
